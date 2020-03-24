@@ -9,7 +9,7 @@ body {
   background-color: #000000;  /* black background color */
 }
 .navbar {
-  background-image: url("images/navigation_bar.PNG"); /* color of the navigation bar */
+  background-image: url("image/navigation_bar.png"); /* color of the navigation bar */
   background-size: 98vw;  /* size of the color of the navigation bar */
   border-top-left-radius: 2vw;  /* top left rounded edge */
   border-top-right-radius: 2vw; /* top right rounded edge */
@@ -102,7 +102,7 @@ input:checked + .slider:before {
 .header {
   -ms-interpolation-mode:nearest-neighbor;  /* IE8+ */
   background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("images/header.PNG"); /* image in header */
+  background-image: url("image/header.png"); /* image in header */
   background-size: 100vw;  /* size of image */
   border-bottom-left-radius: 25px;  /* bottom left rounded edge */
   border-bottom-right-radius: 25px; /* bottom right rounded edge */
@@ -176,7 +176,7 @@ input:checked + .slider:before {
 }
 #myWorkDiv {
   background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("images/sum.PNG");  /* background image */
+  background-image: url("image/sum.png");  /* background image */
   background-size: 100vw; /* backround image size */
   border-radius: 7vw; /* rounded corners */
   cursor: default;  /* makes the cursor not ugly*/
@@ -211,7 +211,7 @@ input:checked + .slider:before {
 }
 #myEquipmentDiv {
   background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("images/material.png");  /* background image */
+  background-image: url("image/material.png");  /* background image */
   background-size: 100vw; /* size of background image */
   border-radius: 7vw; /* rounded corners */
   cursor: default;  /* makes the cursor not ugly*/
@@ -296,7 +296,7 @@ input:checked + .slider:before {
   margin-bottom: 0;
 }
 #backToTopButton {
-  background-image: url(./images/BackToTop.png);
+  background-image: url(./image/BackToTop.png);
   background-size: 5vw;
   border-radius: 10vw; /* rounded corners */
   border: none; /* Remove borders */
@@ -313,7 +313,7 @@ input:checked + .slider:before {
   z-index: 99; /* Make sure it does not overlap */
 }
 #backToTopButton:hover {
-  background-image: url(./images/BackToTopWhite.png);
+  background-image: url(./image/BackToTopWhite.png);
 }
 .moreButton {
   border-radius: 1vw;
