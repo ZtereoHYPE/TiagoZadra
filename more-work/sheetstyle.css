@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:b');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+  background-color: black;
+  color: white;
+}
+
+.button {
+  border-radius: 1vw;
+  background: #0099ff;
+  font-size: 20px;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  padding: 10px;
+  margin: 0vw;
+  align-content: center;
+}
+
+.button:hover {
+  background-color: #80ccff;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+  font-size: 5vw;
+  margin: 1vw;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  cursor: default;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  cursor: default;
+}
+
+.table {
+  text-align: center;
+  cursor: default;
+}
+
+.tableName {
+  width: 33vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.tableDate {
+  width: 33vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.tableNote {
+  width: 33vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+.bottom {
+  color: white; /* text color */
+  font-family: 'Nunito', sans-serif;  /* text font */
+  font-size: 1vw; /* size of the text */
+  cursor: default;
+  padding: 1vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  bottom: 20px;
+  position:absolute;
+}

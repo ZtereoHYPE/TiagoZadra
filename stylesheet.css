@@ -1,0 +1,338 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Nunito:b');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:italic');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+html {
+  scroll-behavior: smooth;  /* makes the scrolling smooth NOT IN SAFARI CURRENTLY */
+}
+body {
+  background-color: #000000;  /* black background color */
+}
+.navbar {
+  background-image: url("images/navigation_bar.PNG"); /* color of the navigation bar */
+  background-size: 98vw;  /* size of the color of the navigation bar */
+  border-top-left-radius: 2vw;  /* top left rounded edge */
+  border-top-right-radius: 2vw; /* top right rounded edge */
+  cursor: default;  /* makes the cursor not ugly*/
+  height: auto; /* height of the navigation bar */
+  margin-left: auto;  /* left margin */
+  margin-right: auto; /* right margin */
+  overflow: hidden; /* top left rounded edge */
+  padding: 1vw 1vw; /* dont touch or i murder ur fam */
+  width: 96vw;  /* width of the navigation bar */
+}
+.button {
+  background-color: #330000;  /* color of button */
+  border-radius: 2vw; /* rounded corners */
+  border: none; /* border of button */
+  color: white; /* color of button text */
+  cursor: pointer;  /* display pointer on mouse */
+  display: inline-block;  /* displays the buttons in a line */
+  font-family: 'Quicksand', sans-serif; /* font of button text */
+  font-size: 15px; /* size of the text */  /* font size of button text */
+  height:30px;  /* height of button */
+}
+.button:hover {
+  background-color: #660000;  /* color of button when hovered */
+}
+.button:active {
+  background-color: #990000;  /* color of button when clicked */
+}
+.easterButton {
+  background-color: blue; /* color of button */
+  border-radius: 2vw; /* rounded corners */
+  border: none; /* border of button */
+  color: white; /* color of button text */
+  cursor: pointer;  /* display pointer on mouse */
+  display: none;  /* hides the button at the beginning */
+  font-family: 'Quicksand', sans-serif; /* font of button text */
+  font-size: 15px; /* size of the text */  /* font size of button text */
+  height:30px;  /* height of button */
+}
+.switch {
+  display: inline-block;
+  position: relative;
+  float: right;
+  width: 60px;
+  height: 34px;
+}
+.switch input {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: darkred;
+  transition: .2s;
+  border-radius: 34px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .2s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #282828;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+#parallaxEffectText {
+  color: white; /* white text color */
+  font-family: 'Nunito', sans-serif; /* text font */
+  font-size: 1vw; /* size of the text */
+  float: right;
+  display: inline-block;
+  margin-right: 1vw;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+.header {
+  -ms-interpolation-mode:nearest-neighbor;  /* IE8+ */
+  background-attachment: fixed; /* creates parallax effect*/
+  background-image: url("images/header.PNG"); /* image in header */
+  background-size: 100vw;  /* size of image */
+  border-bottom-left-radius: 25px;  /* bottom left rounded edge */
+  border-bottom-right-radius: 25px; /* bottom right rounded edge */
+  color: white; /* title and subtitle color */
+  height: 50vw; /* heith of header */
+  image-orientation: center;  /* image orientation */
+  image-rendering:-moz-crisp-edges; /* Firefox image rendering */
+  image-rendering:-o-crisp-edges; /* Opera image rendering */
+  image-rendering:-webkit-optimize-contrast;  /* Safari image rendering */
+  image-rendering:optimize-contrast;  /* CSS3 image rendering */
+  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */
+  image-rendering:pixelated;  /* Chrome image rendering */
+  margin-left: auto;  /* left margin */
+  margin-right: auto; /* right margin */
+  padding: 1vw; /* dont touch or i murder ur fam */
+  text-align: center; /* centered text */ /* center the text */
+  width: 96vw;  /* width of the header */
+}
+#bigTitle {
+  color: white; /* text color */
+  font-family: 'Nunito', sans-serif;  /* text font */
+  font-size: 6vw; /* size of the text */
+  margin-bottom: 0vw; /* bottom margin */
+  margin-top: 4vw;  /* top margin */
+  text-align: center;
+}
+.Title {
+  color: white; /* text color */
+  font-family: 'Nunito', sans-serif;  /* text font */
+  font-size: 4vw; /* size of the text */
+  margin-bottom: 2vw; /* bottom margin */
+  margin-top: 2vw;  /* top margin */
+  text-align: center;
+}
+#headerSubtitle {
+  cursor: default;  /* makes the cursor not ugly*/
+  font-family: 'Nunito', sans-serif;  /* font of the subtitle */
+  font-size: 3vw; /* size of the text */ /* font size of the subtitle */
+  font-weight: normal;  /* font size (bold or not) of the subtitle */
+}
+#firstQuote {
+  color: white; /* white text color */
+  cursor: default;  /* makes the cursor not ugly*/
+  font-family: 'PT Serif', serif; /* text font */
+  font-size: 3vw; /* size of the text */ /* size of the font */
+  font-style: italic; /* italic font */
+  margin-top: 75px; /* top margin */
+  text-align: center; /* centered text */
+}
+#secondQuote {
+  color: #cccccc; /* gray text color */
+  cursor: default;  /* makes the cursor not ugly*/
+  font-family: 'Quicksand', sans-serif; /* text font */
+  font-size: 2vw; /* size of the text */ /* text size */
+  margin-left: 64vw;  /* left margin */
+  text-align: center; /* centered text */
+}
+#introDiv {
+  cursor: default;  /* makes the cursor not ugly*/  
+  margin-bottom: 4vw; /* bottom margin */
+  margin-left: 12vw;/ /* left margin */
+  margin-right: 12vw; /* right margin */
+  text-align: center; /* centered text */
+  width: 75%; /* width of the div */
+}
+#introText {
+  color: white; /* text color */
+  font-family: 'Quicksand', sans-serif; /* text font */
+  font-size: 2vw; /* size of the text */
+  margin-top: 0vw;  /* top margin */
+}
+#myWorkDiv {
+  background-attachment: fixed; /* creates parallax effect*/
+  background-image: url("images/sum.PNG");  /* background image */
+  background-size: 100vw; /* backround image size */
+  border-radius: 7vw; /* rounded corners */
+  cursor: default;  /* makes the cursor not ugly*/
+  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */
+  margin-left: 5vw; /* left margin */
+  margin-right: 5vw;  /* right margin */
+  padding: 2vw; /* dont touch or i murder u too now */
+  position: absolute; /* makes the div include all of its content */
+  width: 85%; /* width of the div */
+}
+.blockDiv {
+  display: block; /* makes the div a solid block */
+  height: 24vw; /* height of the div */
+}
+.myTextLeft {
+  color: white; /* white text color */
+  display: inline-block;  /* displays the elements in a line */
+  font-family: 'Quicksand', sans-serif; /* tex font */
+  font-size: 2vw; /* size of the text */
+  margin-top: 2vw;  /* top margin */
+  width: 40vw;  /* limits the width of the text */
+  text-align: right;  /* aligns text to the right */
+}
+.myTextRight {
+  color: white; /* white text color */
+  display: inline-block;  /* displays the elements in a line */
+  font-family: 'Quicksand', sans-serif; /* text font */
+  font-size: 2vw; /* size of the text */
+  margin-top: 2vw;  /* top margin */
+  width: 40vw;  /* limits the width of the text */
+  text-align: left; /* aligns text to the left */
+}
+#myEquipmentDiv {
+  background-attachment: fixed; /* creates parallax effect*/
+  background-image: url("images/material.png");  /* background image */
+  background-size: 100vw; /* size of background image */
+  border-radius: 7vw; /* rounded corners */
+  cursor: default;  /* makes the cursor not ugly*/
+  image-rendering: optimizeSpeed;  /* makes rendering go faster i hope */
+  margin-left: 5vw; /* left margin */
+  margin-right: 5vw;  /* right margin */
+  margin-top: 72vw; /* top margin */
+  padding: 2vw; /* dont touch or i murder the whole world */
+  position: absolute; /* makes the div include all of its elements */
+  width: 85%; /* width of the div */
+}
+.mySubtitle {
+  color: white; /* white text color */
+  font-family: 'Nunito', sans-serif; /* text font */
+  font-size: 3vw; /* size of the text */
+  margin-bottom: 0vw; /* removes bottom margin */
+  text-align: center; /* centered text */
+}
+.myImageRight {
+  border-radius: 4vw; /* rounded corners */
+  float: right; /* makes the image stay right */
+  height: 22vw; /* height of image */
+  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */ 
+  padding: 1vw; /* no touch */
+  width: auto;  /* automatic width of the image (based on aspect ratio) */
+} 
+.myImageLeft {
+  border-radius: 4vw; /* rounded corners */
+  float: left;  /* makes the image stay left */
+  height: 22vw; /* height if image */
+  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */
+  padding: 1vw; /* don't even think about it */
+  margin-right: 3vw;
+  width: auto;  /* automatic width of the image (based on aspect ratio) */
+} 
+#contactDiv {
+  background-color: black; /* black background color */
+  margin-top: 214vw;  /* top margin */
+  padding: 2vw; /* no */
+  position: absolute; /* makes the div englobe all of its elements */
+  text-align: center; /* centered text */
+  transform: translate(5vw, 0%);  /* NO THIS IS EVIL IT FORCES THE GPU TO BE USED AND BREAKS FIREFOX PARALLAX */
+  width: 85%; /* width of div */
+}
+.contactDivs {
+  display: inline-block;  /* displays the elements in a line */
+  margin-top: 2vw;  /* top margin */
+  width: 20vw;  /* width of the element */
+}
+.contactBubble {
+  transition: transform .3s;  /* animation length */
+  width: 10vw;  /* size of bubble */
+}
+.contactBubble:hover {
+  transform: scale(1.1);  /* animation when hover */
+}
+.contactBubble:active {
+  opacity: 0.7; /* darkens when clicked */
+  transform: scale(0.9);  /* animation when clicked */
+}
+.contactText {
+  color: white; /* white text color */
+  cursor: default;  /* makes the cursor not ugly*/
+  font-family: 'Nunito', sans-serif;  /* text font */
+  font-size: 2vw; /* size of the text */
+  text-align: center; /* centered text */
+}
+#bottom {
+  color: white; /* text color */
+  font-family: 'Nunito', sans-serif;  /* text font */
+  font-size: 1vw; /* size of the text */
+  margin-top: 252vw;  /* top margin */
+  cursor: default;
+  background-color: #222222;
+  border-radius: 2vw;
+  padding: 1vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.inline {
+  display: inline-block;  /* display elements in a line */
+  margin-bottom: 0;
+}
+#backToTopButton {
+  background-image: url(./images/BackToTop.png);
+  background-size: 5vw;
+  border-radius: 10vw; /* rounded corners */
+  border: none; /* Remove borders */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  display: none; /* Hidden by default */
+  font-size: 3vw; /* size of the text */
+  height: 5vw; /* button height */
+  outline: none; /* Remove outline */
+  position: fixed; /* Fixed/sticky position */
+  right: 30px; /* Place the button 30px from the right */
+  width: 5vw; /* button width */
+  z-index: 99; /* Make sure it does not overlap */
+}
+#backToTopButton:hover {
+  background-image: url(./images/BackToTopWhite.png);
+}
+.moreButton {
+  border-radius: 1vw;
+  background: #0099ff;
+  font-size: 2vw;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  padding: 1vw;
+  margin: 1vw;
+  align-content: center;
+  margin-top: 2vw;
+}
+.moreButton:hover {
+  background-color: #80ccff;
+}
+.buttonDiv {
+  text-align: center;
+}
+.trademarks {
+  color: #aaaaaa;
+}
