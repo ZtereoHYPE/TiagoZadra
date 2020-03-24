@@ -296,7 +296,7 @@ input:checked + .slider:before {
   margin-bottom: 0;
 }
 #backToTopButton {
-  background-image: url(./image/BackToTop.png);
+  background-image: url(./image/backToTop.png);
   background-size: 5vw;
   border-radius: 10vw; /* rounded corners */
   border: none; /* Remove borders */
@@ -313,7 +313,7 @@ input:checked + .slider:before {
   z-index: 99; /* Make sure it does not overlap */
 }
 #backToTopButton:hover {
-  background-image: url(./image/BackToTopWhite.png);
+  background-image: url(./image/backToTopWhite.png);
 }
 .moreButton {
   border-radius: 1vw;
