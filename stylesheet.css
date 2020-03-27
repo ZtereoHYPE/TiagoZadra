@@ -279,7 +279,7 @@ input:checked + .slider:before {
   font-size: 2vw; /* size of the text */
   text-align: center; /* centered text */
 }
-#bottom {
+.bottom {
   color: white; /* text color */
   font-family: 'Nunito', sans-serif;  /* text font */
   font-size: 1vw; /* size of the text */
@@ -310,10 +310,13 @@ input:checked + .slider:before {
   position: fixed; /* Fixed/sticky position */
   right: 30px; /* Place the button 30px from the right */
   width: 5vw; /* button width */
+  height: 5vw;
   z-index: 99; /* Make sure it does not overlap */
+  background-repeat: no-repeat;
 }
 #backToTopButton:hover {
   background-image: url(./image/backToTopWhite.png);
+  background-repeat: no-repeat;
 }
 .moreButton {
   border-radius: 1vw;
