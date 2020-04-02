@@ -100,15 +100,13 @@ input:checked + .slider:before {
   margin-top: 8px;
 }
 .header {
-  -ms-interpolation-mode:nearest-neighbor;  /* IE8+ */
   background-attachment: fixed; /* creates parallax effect*/
   background-image: url("image/header.png"); /* image in header */
-  background-size: 100vw;  /* size of image */
   border-bottom-left-radius: 25px;  /* bottom left rounded edge */
   border-bottom-right-radius: 25px; /* bottom right rounded edge */
   color: white; /* title and subtitle color */
   height: 50vw; /* heith of header */
-  image-orientation: center;  /* image orientation */
+    /* image orientation */
   image-rendering:-moz-crisp-edges; /* Firefox image rendering */
   image-rendering:-o-crisp-edges; /* Opera image rendering */
   image-rendering:-webkit-optimize-contrast;  /* Safari image rendering */
@@ -120,6 +118,7 @@ input:checked + .slider:before {
   padding: 1vw; /* dont touch or i murder ur fam */
   text-align: center; /* centered text */ /* center the text */
   width: 96vw;  /* width of the header */
+  background-size: cover;
 }
 #bigTitle {
   color: white; /* text color */
