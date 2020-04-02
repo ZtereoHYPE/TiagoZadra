@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:b');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 body {
-  background-color: black;
+  background-image: url("../image/workBackground.png");
+  background-size: cover;
   color: white;
 }
 
