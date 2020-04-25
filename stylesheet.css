@@ -49,58 +49,7 @@ body {
   font-size: 15px; /* size of the text */  /* font size of button text */
   height:30px;  /* height of button */
 }
-.switch {
-  display: inline-block;
-  position: relative;
-  float: right;
-  width: 60px;
-  height: 34px;
-}
-.switch input {
-  display: none;
-  width: 0;
-  height: 0;
-}
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: darkred;
-  transition: .2s;
-  border-radius: 34px;
-}
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  transition: .2s;
-  border-radius: 50%;
-}
-input:checked + .slider {
-  background-color: #282828;
-}
-input:checked + .slider:before {
-  transform: translateX(26px);
-}
-#parallaxEffectText {
-  color: white; /* white text color */
-  font-family: 'Nunito', sans-serif; /* text font */
-  font-size: 1vw; /* size of the text */
-  float: right;
-  display: inline-block;
-  margin-right: 1vw;
-  margin-bottom: 0;
-  margin-top: 8px;
-}
 .header {
-  background-attachment: fixed; /* creates parallax effect*/
   background-image: url("image/header.png"); /* image in header */
   border-bottom-left-radius: 25px;  /* bottom left rounded edge */
   border-bottom-right-radius: 25px; /* bottom right rounded edge */
@@ -118,7 +67,6 @@ input:checked + .slider:before {
   text-align: center; /* centered text */ /* center the text */
   width: 96vw;  /* width of the header */
   background-size: cover;
-  background-repeat-y: no-repeat;
 }
 #bigTitle {
   color: white; /* text color */
@@ -162,7 +110,7 @@ input:checked + .slider:before {
 #introDiv {
   cursor: default;  /* makes the cursor not ugly*/  
   margin-bottom: 4vw; /* bottom margin */
-  margin-left: 12vw;/ /* left margin */
+  margin-left: 12vw; /* left margin */
   margin-right: 12vw; /* right margin */
   text-align: center; /* centered text */
   width: 75%; /* width of the div */

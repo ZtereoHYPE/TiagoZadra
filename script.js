@@ -45,19 +45,6 @@ function topFunction() {  //creates the scroll back to top function
   document.body.scrollTop = 0;  // For Safari
   document.documentElement.scrollTop = 0; // For all other browsers i guess
 }
-function parallaxEffect() {
-  if (checkbox.checked == true) {
-    header.style.backgroundAttachment = "scroll";
-    myWorkDiv.style.backgroundAttachment = "scroll";
-    myEquipmentDiv.style.backgroundAttachment = "scroll";
-  }
-  if (checkbox.checked == false) {
-    header.style.backgroundAttachment = "fixed";
-    myWorkDiv.style.backgroundAttachment = "fixed";
-    myEquipmentDiv.style.backgroundAttachment = "fixed";
-  }
-  console.log(header.style.backgroundAttachment)
-}
 if(window.innerHeight > window.innerWidth){
   alert("This page is best viewed in landscape mode and on tablets/desktops.");
 }
