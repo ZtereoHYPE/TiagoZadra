@@ -70,5 +70,6 @@ body {
   margin-left: 2vw;
   margin-right: 2vw;
   bottom: 20px;
-  position: center;
+  position: bottom;
+  text-justify: center;
 }
