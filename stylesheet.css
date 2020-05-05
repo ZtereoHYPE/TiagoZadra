@@ -7,10 +7,9 @@ html {
 }
 body {
   background-color: #000000;  /* black background color */
-  font-display: swap;
 }
 .navbar {
-  background-image: url("image/navigation_bar.jp2"); /* color of the navigation bar */
+  background-image: url("image/navigation_bar.png"); /* color of the navigation bar */
   background-size: 98vw;  /* size of the color of the navigation bar */
   border-top-left-radius: 2vw;  /* top left rounded edge */
   border-top-right-radius: 2vw; /* top right rounded edge */
@@ -51,7 +50,7 @@ body {
   height:30px;  /* height of button */
 }
 .header {
-  background-image: url("image/header.jp2"); /* image in header */
+  background-image: url("image/header.png"); /* image in header */
   border-bottom-left-radius: 25px;  /* bottom left rounded edge */
   border-bottom-right-radius: 25px; /* bottom right rounded edge */
   color: white; /* title and subtitle color */
@@ -124,7 +123,7 @@ body {
 }
 #myWorkDiv {
   background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("image/sum.jp2");  /* background image */
+  background-image: url("image/sum.png");  /* background image */
   background-size: 100vw; /* backround image size */
   border-radius: 7vw; /* rounded corners */
   cursor: default;  /* makes the cursor not ugly*/
@@ -159,7 +158,7 @@ body {
 }
 #myEquipmentDiv {
   background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("image/material.jp2");  /* background image */
+  background-image: url("image/material.png");  /* background image */
   background-size: 100vw; /* size of background image */
   border-radius: 7vw; /* rounded corners */
   cursor: default;  /* makes the cursor not ugly*/
