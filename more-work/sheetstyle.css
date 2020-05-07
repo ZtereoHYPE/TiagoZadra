@@ -4,6 +4,7 @@ body {
   background-image: url("../image/workBackground.png");
   background-size: cover;
   color: white;
+  background-color: black;
 }
 .button {
   border-radius: 1vw;

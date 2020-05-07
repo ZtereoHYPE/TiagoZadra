@@ -7,9 +7,15 @@ html {
 }
 body {
   background-color: #000000;  /* black background color */
+  image-rendering:-moz-crisp-edges; /* Firefox image rendering */
+  image-rendering:-o-crisp-edges; /* Opera image rendering */
+  image-rendering:-webkit-optimize-contrast;  /* Safari image rendering */
+  image-rendering:optimize-contrast;  /* CSS3 image rendering */
+  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */
+  image-rendering:pixelated;  /* Chrome image rendering */
 }
 .navbar {
-  background-image: url("image/navigation_bar.png"); /* color of the navigation bar */
+  background-image: url("lightImage/navigation_bar.webp"); /* color of the navigation bar */
   background-size: 98vw;  /* size of the color of the navigation bar */
   border-top-left-radius: 2vw;  /* top left rounded edge */
   border-top-right-radius: 2vw; /* top right rounded edge */
@@ -20,6 +26,9 @@ body {
   overflow: hidden; /* top left rounded edge */
   padding: 1vw 1vw; /* dont touch or i murder ur fam */
   width: 96vw;  /* width of the navigation bar */
+}
+.no-webp .navbar {
+  background-image: url("image/navigation_bar.png");
 }
 .button {
   background-color: #330000;  /* color of button */
@@ -50,23 +59,20 @@ body {
   height:30px;  /* height of button */
 }
 .header {
-  background-image: url("image/header.png"); /* image in header */
+  background-image: url("lightImage/header.webp"); /* image in header */
   border-bottom-left-radius: 25px;  /* bottom left rounded edge */
   border-bottom-right-radius: 25px; /* bottom right rounded edge */
   color: white; /* title and subtitle color */
   height: 50vw; /* heith of header */
-  image-rendering:-moz-crisp-edges; /* Firefox image rendering */
-  image-rendering:-o-crisp-edges; /* Opera image rendering */
-  image-rendering:-webkit-optimize-contrast;  /* Safari image rendering */
-  image-rendering:optimize-contrast;  /* CSS3 image rendering */
-  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */
-  image-rendering:pixelated;  /* Chrome image rendering */
   margin-left: auto;  /* left margin */
   margin-right: auto; /* right margin */
   padding: 1vw; /* dont touch or i murder ur fam */
   text-align: center; /* centered text */ /* center the text */
   width: 96vw;  /* width of the header */
   background-size: cover;
+}
+.no-webp .header {
+  background-image: url("image/header.png");
 }
 #bigTitle {
   color: white; /* text color */
@@ -123,16 +129,18 @@ body {
 }
 #myWorkDiv {
   background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("image/sum.png");  /* background image */
+  background-image: url("lightImage/sum.webp");  /* background image */
   background-size: 100vw; /* backround image size */
   border-radius: 7vw; /* rounded corners */
   cursor: default;  /* makes the cursor not ugly*/
-  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */
   margin-left: 5vw; /* left margin */
   margin-right: 5vw;  /* right margin */
   padding: 2vw; /* dont touch or i murder u too now */
   position: absolute; /* makes the div include all of its content */
   width: 85%; /* width of the div */
+}
+.no-webp #myWorkDiv {
+  background-image: url("image/sum.png");
 }
 .blockDiv {
   display: block; /* makes the div a solid block */
@@ -158,7 +166,7 @@ body {
 }
 #myEquipmentDiv {
   background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("image/material.png");  /* background image */
+  background-image: url("lightImage/material.webp");  /* background image */
   background-size: 100vw; /* size of background image */
   border-radius: 7vw; /* rounded corners */
   cursor: default;  /* makes the cursor not ugly*/
@@ -169,6 +177,9 @@ body {
   padding: 2vw; /* dont touch or i murder the whole world */
   position: absolute; /* makes the div include all of its elements */
   width: 85%; /* width of the div */
+}
+.no-webp #myEquipmentDiv {
+  background-image: url("image/material.png");
 }
 .mySubtitle {
   color: white; /* white text color */
@@ -181,7 +192,6 @@ body {
   border-radius: 4vw; /* rounded corners */
   float: right; /* makes the image stay right */
   height: 22vw; /* height of image */
-  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */ 
   padding: 1vw; /* no touch */
   width: auto;  /* automatic width of the image (based on aspect ratio) */
 } 
@@ -189,7 +199,6 @@ body {
   border-radius: 4vw; /* rounded corners */
   float: left;  /* makes the image stay left */
   height: 22vw; /* height if image */
-  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */
   padding: 1vw; /* don't even think about it */
   margin-right: 3vw;
   width: auto;  /* automatic width of the image (based on aspect ratio) */
@@ -202,6 +211,7 @@ body {
   text-align: center; /* centered text */
   transform: translate(5vw, 0%);  /* NO THIS IS EVIL IT FORCES THE GPU TO BE USED AND BREAKS FIREFOX PARALLAX */
   width: 85%; /* width of div */
+  image-rendering: auto;
 }
 .contactDivs {
   display: inline-block;  /* displays the elements in a line */
@@ -263,7 +273,6 @@ body {
 }
 #backToTopButton:hover {
   background-image: url(./image/backToTopWhite.png);
-  background-repeat: no-repeat;
 }
 .moreButton {
   border-radius: 1vw;
