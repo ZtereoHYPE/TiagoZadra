@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Nunito:b');
-@import url('https://fonts.googleapis.com/css?family=PT+Serif:italic');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 html {
   scroll-behavior: smooth;  /* makes the scrolling smooth NOT IN SAFARI CURRENTLY */
@@ -99,18 +98,10 @@ body {
 #firstQuote {
   color: white; /* white text color */
   cursor: default;  /* makes the cursor not ugly*/
-  font-family: 'PT Serif', serif; /* text font */
+  font-family: 'Nunito', sans-serif; /* text font */
   font-size: 3vw; /* size of the text */ /* size of the font */
   font-style: italic; /* italic font */
   margin-top: 75px; /* top margin */
-  text-align: center; /* centered text */
-}
-#secondQuote {
-  color: #cccccc; /* gray text color */
-  cursor: default;  /* makes the cursor not ugly*/
-  font-family: 'Quicksand', sans-serif; /* text font */
-  font-size: 2vw; /* size of the text */ /* text size */
-  margin-left: 64vw;  /* left margin */
   text-align: center; /* centered text */
 }
 #introDiv {
