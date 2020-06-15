@@ -37,8 +37,8 @@ body {
   cursor: pointer;  /* display pointer on mouse */
   display: inline-block;  /* displays the buttons in a line */
   font-family: 'Quicksand', sans-serif; /* font of button text */
-  font-size: 15px; /* size of the text */  /* font size of button text */
-  height:30px;  /* height of button */
+  font-size: 19px; /* size of the text */  /* font size of button text */
+  height:42px;  /* height of button */
 }
 .button:hover {
   background-color: #660000;  /* color of button when hovered */
