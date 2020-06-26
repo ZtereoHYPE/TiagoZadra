@@ -26,9 +26,6 @@ body {
   padding: 1vw 1vw; /* dont touch or i murder ur fam */
   width: 96vw;  /* width of the navigation bar */
 }
-.no-webp .navbar {
-  background-image: url("image/navigation_bar.png");
-}
 .button {
   background-color: #330000;  /* color of button */
   border-radius: 2vw; /* rounded corners */
@@ -69,9 +66,6 @@ body {
   text-align: center; /* centered text */ /* center the text */
   width: 96vw;  /* width of the header */
   background-size: cover;
-}
-.no-webp .header {
-  background-image: url("image/header.png");
 }
 #bigTitle {
   color: white; /* text color */
@@ -130,9 +124,6 @@ body {
   position: absolute; /* makes the div include all of its content */
   width: 85%; /* width of the div */
 }
-.no-webp #myWorkDiv {
-  background-image: url("image/sum.png");
-}
 .blockDiv {
   display: block; /* makes the div a solid block */
   height: 24vw; /* height of the div */
@@ -168,9 +159,6 @@ body {
   padding: 2vw; /* dont touch or i murder the whole world */
   position: absolute; /* makes the div include all of its elements */
   width: 85%; /* width of the div */
-}
-.no-webp #myEquipmentDiv {
-  background-image: url("image/material.png");
 }
 .mySubtitle {
   color: white; /* white text color */
