@@ -65,9 +65,9 @@ body {
   text-align: center;
 }
 .bottom {
-  color: white; /* text color */
-  font-family: 'Nunito', sans-serif;  /* text font */
-  font-size: 1vw; /* size of the text */
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
   cursor: default;
   padding: 1vw;
   margin-left: 2vw;
