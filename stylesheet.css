@@ -2,280 +2,147 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:b');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 html {
-  scroll-behavior: smooth;  /* makes the scrolling smooth NOT IN SAFARI CURRENTLY */
+  scroll-behavior: smooth;
 }
 body {
-  background-color: #000000;  /* black background color */
-  image-rendering:-moz-crisp-edges; /* Firefox image rendering */
-  image-rendering:-o-crisp-edges; /* Opera image rendering */
-  image-rendering:-webkit-optimize-contrast;  /* Safari image rendering */
-  image-rendering:optimize-contrast;  /* CSS3 image rendering */
-  image-rendering:optimizeSpeed;  /* makes rendering go faster i hope */
-  image-rendering:pixelated;  /* Chrome image rendering */
+  background-color: #000000;
+  image-rendering:-moz-crisp-edges;
+  image-rendering:-o-crisp-edges;/
+  image-rendering:-webkit-optimize-contrast;
+  image-rendering:optimize-contrast;
+  image-rendering:optimizeSpeed;
+  image-rendering:pixelated;
 }
 .navbar {
-  background-image: url("lightImage/navigation_bar.webp"); /* color of the navigation bar */
-  background-size: 98vw;  /* size of the color of the navigation bar */
-  border-top-left-radius: 2vw;  /* top left rounded edge */
-  border-top-right-radius: 2vw; /* top right rounded edge */
-  cursor: default;  /* makes the cursor not ugly*/
-  height: auto; /* height of the navigation bar */
-  margin-left: auto;  /* left margin */
-  margin-right: auto; /* right margin */
-  overflow: hidden; /* top left rounded edge */
-  padding: 1vw 1vw; /* dont touch or i murder ur fam */
-  width: 96vw;  /* width of the navigation bar */
+  background-image: url("lightImage/navigation_bar.webp");
+  background-size: 98vw;
+  border-top-left-radius: 2vw;
+  border-top-right-radius: 2vw;
+  cursor: default;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 1vw 1vw;
+  width: 96vw;
 }
 .no-webp .navbar {
   background-image: url("image/navigation_bar.png");
 }
 .button {
-  background-color: #330000;  /* color of button */
-  border-radius: 2vw; /* rounded corners */
-  border: none; /* border of button */
-  color: white; /* color of button text */
-  cursor: pointer;  /* display pointer on mouse */
-  display: inline-block;  /* displays the buttons in a line */
-  font-family: 'Quicksand', sans-serif; /* font of button text */
-  font-size: 19px; /* size of the text */  /* font size of button text */
-  height:42px;  /* height of button */
+  background-color: #330000;
+  border-radius: 2vw;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 19px;
+  height:42px;
 }
 .button:hover {
-  background-color: #660000;  /* color of button when hovered */
+  background-color: #660000;
 }
 .button:active {
-  background-color: #990000;  /* color of button when clicked */
+  background-color: #990000;
 }
 .easterButton {
-  background-color: blue; /* color of button */
-  border-radius: 2vw; /* rounded corners */
-  border: none; /* border of button */
-  color: white; /* color of button text */
-  cursor: pointer;  /* display pointer on mouse */
-  display: none;  /* hides the button at the beginning */
-  font-family: 'Quicksand', sans-serif; /* font of button text */
-  font-size: 15px; /* size of the text */  /* font size of button text */
-  height:30px;  /* height of button */
+  background-color: blue;
+  border-radius: 2vw;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  height:30px;
 }
 .header {
-  background-image: url("lightImage/header.webp"); /* image in header */
-  border-bottom-left-radius: 25px;  /* bottom left rounded edge */
-  border-bottom-right-radius: 25px; /* bottom right rounded edge */
-  color: white; /* title and subtitle color */
-  height: 50vw; /* heith of header */
-  margin-left: auto;  /* left margin */
-  margin-right: auto; /* right margin */
-  padding: 1vw; /* dont touch or i murder ur fam */
-  text-align: center; /* centered text */ /* center the text */
-  width: 96vw;  /* width of the header */
+  background-image: url("lightImage/header.webp");
   background-size: cover;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: white;
+  height: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1vw;
+  text-align: center;
+  width: 96vw;
 }
 .no-webp .header {
   background-image: url("image/header.png");
 }
 #bigTitle {
-  color: white; /* text color */
-  font-family: 'Nunito', sans-serif;  /* text font */
-  font-size: 6vw; /* size of the text */
-  margin-bottom: 0vw; /* bottom margin */
-  margin-top: 4vw;  /* top margin */
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 6vw;
+  margin-bottom: 0vw;
+  margin-top: 4vw;
   text-align: center;
 }
 .Title {
-  color: white; /* text color */
-  font-family: 'Nunito', sans-serif;  /* text font */
-  font-size: 4vw; /* size of the text */
-  margin-bottom: 2vw; /* bottom margin */
-  margin-top: 2vw;  /* top margin */
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 4vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
   text-align: center;
 }
 #headerSubtitle {
-  cursor: default;  /* makes the cursor not ugly*/
-  font-family: 'Nunito', sans-serif;  /* font of the subtitle */
-  font-size: 3vw; /* size of the text */ /* font size of the subtitle */
-  font-weight: normal;  /* font size (bold or not) of the subtitle */
+  cursor: default;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3vw;
+  font-weight: normal;
 }
 #firstQuote {
-  color: white; /* white text color */
-  cursor: default;  /* makes the cursor not ugly*/
-  font-family: 'Nunito', sans-serif; /* text font */
-  font-size: 3vw; /* size of the text */ /* size of the font */
-  font-style: italic; /* italic font */
-  margin-top: 75px; /* top margin */
-  text-align: center; /* centered text */
+  color: white;
+  cursor: default;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3vw;
+  font-style: italic;
+  margin-left: 11vw;
+  margin-right: 11vw;
+  margin-top: 75px;
+  text-align: center;
 }
 #introDiv {
-  cursor: default;  /* makes the cursor not ugly*/  
-  margin-bottom: 4vw; /* bottom margin */
-  margin-left: 12vw; /* left margin */
-  margin-right: 12vw; /* right margin */
-  text-align: center; /* centered text */
-  width: 75%; /* width of the div */
+  cursor: default;
+  margin-bottom: 4vw;
+  margin-left: 12vw;
+  margin-right: 12vw;
+  text-align: center;
+  width: 75%;
 }
 #introText {
-  color: white; /* text color */
-  font-family: 'Quicksand', sans-serif; /* text font */
-  font-size: 2vw; /* size of the text */
-  margin-top: 0vw;  /* top margin */
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2vw;
+  margin-top: 0vw;
 }
 #myWorkDiv {
-  background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("lightImage/sum.webp");  /* background image */
-  background-size: 100vw; /* backround image size */
-  border-radius: 7vw; /* rounded corners */
-  cursor: default;  /* makes the cursor not ugly*/
-  margin-left: 5vw; /* left margin */
-  margin-right: 5vw;  /* right margin */
-  padding: 2vw; /* dont touch or i murder u too now */
-  position: absolute; /* makes the div include all of its content */
-  width: 85%; /* width of the div */
-}
-.no-webp #myWorkDiv {
-  background-image: url("image/sum.png");
-}
-.blockDiv {
-  display: block; /* makes the div a solid block */
-  height: 24vw; /* height of the div */
-}
-.myTextLeft {
-  color: white; /* white text color */
-  display: inline-block;  /* displays the elements in a line */
-  font-family: 'Quicksand', sans-serif; /* tex font */
-  font-size: 2vw; /* size of the text */
-  margin-top: 2vw;  /* top margin */
-  width: 40vw;  /* limits the width of the text */
-  text-align: right;  /* aligns text to the right */
-}
-.myTextRight {
-  color: white; /* white text color */
-  display: inline-block;  /* displays the elements in a line */
-  font-family: 'Quicksand', sans-serif; /* text font */
-  font-size: 2vw; /* size of the text */
-  margin-top: 2vw;  /* top margin */
-  width: 40vw;  /* limits the width of the text */
-  text-align: left; /* aligns text to the left */
-}
-#myEquipmentDiv {
-  background-attachment: fixed; /* creates parallax effect*/
-  background-image: url("lightImage/material.webp");  /* background image */
-  background-size: 100vw; /* size of background image */
-  border-radius: 7vw; /* rounded corners */
-  cursor: default;  /* makes the cursor not ugly*/
-  image-rendering: optimizeSpeed;  /* makes rendering go faster i hope */
-  margin-left: 5vw; /* left margin */
-  margin-right: 5vw;  /* right margin */
-  margin-top: 72vw; /* top margin */
-  padding: 2vw; /* dont touch or i murder the whole world */
-  position: absolute; /* makes the div include all of its elements */
-  width: 85%; /* width of the div */
-}
-.no-webp #myEquipmentDiv {
-  background-image: url("image/material.png");
-}
-.mySubtitle {
-  color: white; /* white text color */
-  font-family: 'Nunito', sans-serif; /* text font */
-  font-size: 3vw; /* size of the text */
-  margin-bottom: 0vw; /* removes bottom margin */
-  text-align: center; /* centered text */
-}
-.myImageRight {
-  border-radius: 4vw; /* rounded corners */
-  float: right; /* makes the image stay right */
-  height: 22vw; /* height of image */
-  padding: 1vw; /* no touch */
-  width: auto;  /* automatic width of the image (based on aspect ratio) */
-} 
-.myImageLeft {
-  border-radius: 4vw; /* rounded corners */
-  float: left;  /* makes the image stay left */
-  height: 22vw; /* height if image */
-  padding: 1vw; /* don't even think about it */
-  margin-right: 3vw;
-  width: auto;  /* automatic width of the image (based on aspect ratio) */
-} 
-#contactDiv {
-  background-color: black; /* black background color */
-  margin-top: 214vw;  /* top margin */
-  padding: 2vw; /* no */
-  position: absolute; /* makes the div englobe all of its elements */
-  text-align: center; /* centered text */
-  transform: translate(5vw, 0%);  /* NO THIS IS EVIL IT FORCES THE GPU TO BE USED AND BREAKS FIREFOX PARALLAX */
-  width: 85%; /* width of div */
-  image-rendering: auto;
-}
-.contactDivs {
-  display: inline-block;  /* displays the elements in a line */
-  margin-top: 2vw;  /* top margin */
-  width: 20vw;  /* width of the element */
-}
-.contactBubble {
-  transition: transform .3s;  /* animation length */
-  width: 10vw;  /* size of bubble */
-}
-.contactBubble:hover {
-  transform: scale(1.1);  /* animation when hover */
-}
-.contactBubble:active {
-  opacity: 0.7; /* darkens when clicked */
-  transform: scale(0.9);  /* animation when clicked */
-}
-.contactText {
-  color: white; /* white text color */
-  cursor: default;  /* makes the cursor not ugly*/
-  font-family: 'Nunito', sans-serif;  /* text font */
-  font-size: 2vw; /* size of the text */
-  text-align: center; /* centered text */
-}
-.bottom {
-  color: white; /* text color */
-  font-family: 'Nunito', sans-serif;  /* text font */
-  font-size: 1vw; /* size of the text */
-  margin-top: 252vw;  /* top margin */
+  background-attachment: fixed;
+  background-image: url("lightImage/sum.webp");
+  background-size: 100vw;
+  border-radius: 7vw;
   cursor: default;
-  background-color: #222222;
-  border-radius: 2vw;
-  padding: 1vw;
-  margin-left: 2vw;
-  margin-right: 2vw;
-}
-.inline {
-  display: inline-block;  /* display elements in a line */
-  margin-bottom: 0;
-}
-#backToTopButton {
-  background-image: url(./image/backToTop.png);
-  background-size: 5vw;
-  border-radius: 10vw; /* rounded corners */
-  border: none; /* Remove borders */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  display: none; /* Hidden by default */
-  font-size: 3vw; /* size of the text */
-  height: 5vw; /* button height */
-  outline: none; /* Remove outline */
-  position: fixed; /* Fixed/sticky position */
-  right: 30px; /* Place the button 30px from the right */
-  width: 5vw; /* button width */
-  height: 5vw;
-  z-index: 99; /* Make sure it does not overlap */
-  background-repeat: no-repeat;
-}
-#backToTopButton:hover {
-  background-image: url(./image/backToTopWhite.png);
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 2vw;
+  position: absolute;
+  width: 85%;
 }
 .moreButton {
-  border-radius: 1vw;
-  background: #0099ff;
-  font-size: 2vw;
-  border: none;
-  font-family: 'Quicksand', sans-serif;
-  color: white;
-  padding: 1vw;
-  margin: 1vw;
   align-content: center;
+  background: #0099ff;
+  border-radius: 1vw;
+  border: none;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2vw;
   margin-top: 2vw;
+  margin: 1vw;
+  padding: 1vw;
 }
 .moreButton:hover {
   background-color: #80ccff;
@@ -283,6 +150,138 @@ body {
 .buttonDiv {
   text-align: center;
 }
-.trademarks {
+.no-webp #myWorkDiv {
+  background-image: url("image/sum.png");
+}
+.blockDiv {
+  display: block;
+  height: 24vw;
+}
+.myTextLeft {
+  color: white;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2vw;
+  margin-top: 2vw;
+  text-align: right;
+  width: 40vw;
+}
+.myTextRight {
+  color: white;
+  display: inline-block;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2vw;
+  margin-top: 2vw;
+  text-align: left;
+  width: 40vw;
+}
+#myEquipmentDiv {
+  background-attachment: fixed;
+  background-image: url("lightImage/material.webp");
+  background-size: 100vw;
+  border-radius: 7vw;
+  cursor: default;
+  image-rendering: optimizeSpeed;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 72vw;
+  padding: 2vw;
+  position: absolute;
+  width: 85%;
+}
+.no-webp #myEquipmentDiv {
+  background-image: url("image/material.png");
+}
+.mySubtitle {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3vw;
+  margin-bottom: 0vw;
+  text-align: center;
+}
+.myImageRight {
+  border-radius: 4vw;
+  float: right;
+  height: 22vw;
+  padding: 1vw;
+  width: auto;
+} 
+.myImageLeft {
+  border-radius: 4vw;
+  float: left;
+  height: 22vw;
+  margin-right: 3vw;
+  padding: 1vw;
+  width: auto;
+} 
+#contactDiv {
+  background-color: black;
+  image-rendering: auto;
+  margin-top: 214vw;
+  padding: 2vw;
+  position: absolute;
+  text-align: center;
+  transform: translate(5vw, 0%);
+  width: 85%;
+}
+.contactDivs {
+  display: inline-block;
+  margin-top: 2vw;
+  width: 20vw;
+}
+.contactBubble {
+  transition: transform .3s;
+  width: 10vw;
+}
+.contactBubble:hover {
+  transform: scale(1.1);
+}
+.contactBubble:active {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+.contactText {
+  color: white;
+  cursor: default;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2vw;
+  text-align: center;
+}
+.bottom {
+  background-color: #000000;
+  border-radius: 2vw;
   color: #aaaaaa;
+  cursor: default;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 252vw;
+  padding: 1vw;
+}
+.inline {
+  display: inline-block;
+  margin-bottom: 0;
+}
+#backToTopButton {
+  background-image: url(./image/backToTop.png);
+  background-repeat: no-repeat;
+  background-size: 5vw;
+  border-radius: 10vw;
+  border: none;
+  bottom: 20px;
+  color: white;
+  cursor: pointer;
+  display: none;
+  font-size: 3vw;
+  height: 5vw;
+  height: 5vw;
+  outline: none;
+  position: fixed;
+  right: 30px;
+  width: 5vw;
+  z-index: 99;
+}
+#backToTopButton:hover {
+  background-image: url(./image/backToTopWhite.png);
 }
