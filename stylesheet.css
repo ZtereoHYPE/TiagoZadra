@@ -101,9 +101,10 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 3vw;
   font-style: italic;
+  margin-bottom: 7vw;
   margin-left: 11vw;
   margin-right: 11vw;
-  margin-top: 75px;
+  margin-top: 7vw;
   text-align: center;
 }
 #introDiv {
