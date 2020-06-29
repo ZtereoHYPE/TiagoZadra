@@ -52,7 +52,7 @@ body {
   border: none;
   color: white;
   cursor: pointer;
-  display: inline-block;
+  display: none;
   font-family: 'Quicksand', sans-serif;
   font-size: 2.5vmin;
   padding: 1.5vmin;
