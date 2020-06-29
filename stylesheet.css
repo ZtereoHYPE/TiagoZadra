@@ -48,14 +48,14 @@ body {
 }
 .easterButton {
   background-color: blue;
-  border-radius: 2vw;
+  border-radius: 20px;
   border: none;
   color: white;
   cursor: pointer;
-  display: none;
+  display: inline-block;
   font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
-  height:30px;
+  font-size: 2.5vmin;
+  padding: 1.5vmin;
 }
 .header {
   background-image: url("lightImage/header.webp");
