@@ -2,7 +2,6 @@
 var homeCounter = 0;
 var easterButton = document.getElementById('easterButton');
 var backToTopButton = document.getElementById("backToTopButton");
-
 //make buttons scroll to div + easter egg
 document.getElementById('introButton').addEventListener('click', () => { 
   document.getElementById('introDiv').scrollIntoView();
@@ -19,7 +18,6 @@ document.getElementById('contactButton').addEventListener('click', () => {
 easterButton.addEventListener('click', () => {
   window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 });
-
 //count n° times home is clicked for easter egg
 var homeButton = document.getElementById('homeButton').addEventListener('click', () => {
   homeCounter += 1;
@@ -29,7 +27,6 @@ var homeButton = document.getElementById('homeButton').addEventListener('click',
       easterButton.style.display = "none";
     }   
 }); 
-
 //makes back to top button appear on scroll
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -39,7 +36,6 @@ function scrollFunction() {
     document.getElementById("backToTopButton").style.display = "none";
   }
 }
-
 //declares back to top function
 function topFunction() {
   document.body.scrollTop = 0;

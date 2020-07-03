@@ -73,7 +73,7 @@ body {
 .no-webp .header {
   background-image: url("image/header.png");
 }
-#bigTitle {
+.bigTitle {
   color: white;
   font-family: 'Nunito', sans-serif;
   font-size: 6vw;
@@ -89,13 +89,13 @@ body {
   margin-top: 2vw;
   text-align: center;
 }
-#headerSubtitle {
+.headerSubtitle {
   cursor: default;
   font-family: 'Nunito', sans-serif;
   font-size: 3vw;
   font-weight: normal;
 }
-#firstQuote {
+.firstQuote {
   color: white;
   cursor: default;
   font-family: 'Nunito', sans-serif;
@@ -107,7 +107,7 @@ body {
   margin-top: 7vw;
   text-align: center;
 }
-#introDiv {
+.introDiv {
   cursor: default;
   margin-bottom: 4vw;
   margin-left: 12vw;
@@ -115,13 +115,13 @@ body {
   text-align: center;
   width: 75%;
 }
-#introText {
+.introText {
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-size: 2vw;
   margin-top: 0vw;
 }
-#myWorkDiv {
+.myWorkDiv {
   background-attachment: fixed;
   background-image: url("lightImage/sum.webp");
   background-size: 100vw;
@@ -151,7 +151,7 @@ body {
 .buttonDiv {
   text-align: center;
 }
-.no-webp #myWorkDiv {
+.no-webp .myWorkDiv {
   background-image: url("image/sum.png");
 }
 .blockDiv {
@@ -176,7 +176,7 @@ body {
   text-align: left;
   width: 40vw;
 }
-#myEquipmentDiv {
+.myEquipmentDiv {
   background-attachment: fixed;
   background-image: url("lightImage/material.webp");
   background-size: 100vw;
@@ -190,7 +190,7 @@ body {
   position: absolute;
   width: 85%;
 }
-.no-webp #myEquipmentDiv {
+.no-webp .myEquipmentDiv {
   background-image: url("image/material.png");
 }
 .mySubtitle {
@@ -215,7 +215,7 @@ body {
   padding: 1vw;
   width: auto;
 } 
-#contactDiv {
+.contactDiv {
   background-color: black;
   image-rendering: auto;
   margin-top: 214vw;
@@ -259,10 +259,6 @@ body {
   margin-right: 2vw;
   margin-top: 252vw;
   padding: 1vw;
-}
-.inline {
-  display: inline-block;
-  margin-bottom: 0;
 }
 #backToTopButton {
   background-image: url(./image/backToTop.png);
