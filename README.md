@@ -9,3 +9,5 @@ The work should be all done here except if bugs are found or if I am requested t
 - WebP placeholder file uses old font and file
 - Header buttons don't seem to work for some reason (tested on Chrome Windows 7)
 - Stuff is too big on large screens (may or may not fix; probably related to excessive usage of vw)
+- If window is thin enough on desktop browser, some text may overlap
+
