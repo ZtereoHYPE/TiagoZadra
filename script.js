@@ -7,7 +7,7 @@ document.getElementById('introButton').addEventListener('click', () => {
   document.getElementById('introDiv').scrollIntoView();
 });
 document.getElementById('myWorkButton').addEventListener('click', () => {  
-document.getElementById('myWorkDiv').scrollIntoView();
+  document.getElementById('myWorkDiv').scrollIntoView();
 });
 document.getElementById('myEquipmentButton').addEventListener('click', () => { 
   document.getElementById('myEquipmentDiv').scrollIntoView();
@@ -41,6 +41,7 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+//alerts if on mobile/landscape
 if(window.innerHeight > window.innerWidth){
   alert("This page is best viewed in landscape mode and on tablets/desktops.");
 }
