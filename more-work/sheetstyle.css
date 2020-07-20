@@ -43,21 +43,7 @@ body {
   cursor: default;
   text-align: center;
 }
-.tableName {
-  color: white;
-  font-family: sans-serif;
-  font-size: 2vw;
-  text-align: center;
-  width: 33vw;
-}
-.tableDate {
-  color: white;
-  font-family: sans-serif;
-  font-size: 2vw;
-  text-align: center;
-  width: 33vw;
-}
-.tableLink {
+.tableContent {
   color: white;
   font-family: sans-serif;
   font-size: 2vw;

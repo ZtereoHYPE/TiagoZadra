@@ -23,7 +23,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  padding: 1vw 1vw;
+  padding: 1vmin 1vmin;
   width: 96vw;
 }
 .no-webp .navbar {
@@ -37,8 +37,8 @@ body {
   cursor: pointer;
   display: inline-block;
   font-family: 'Quicksand', sans-serif;
-  font-size: 2.5vmin;
-  padding: 1.5vmin;
+  font-size: 2vmin;
+  padding: 1vmin;
 }
 .button:hover {
   background-color: #660000;
