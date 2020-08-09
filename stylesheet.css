@@ -12,6 +12,12 @@ body {
   image-rendering:optimize-contrast;
   image-rendering:optimizeSpeed;
   image-rendering:pixelated;
+  display: flex;
+}
+.contentBar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .navbar {
   background-image: url("lightImage/navigation_bar.webp");
@@ -23,8 +29,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  padding: 1vmin 1vmin;
-  width: 96vw;
+  padding: 1vmin;
+  width: 95%;
 }
 .no-webp .navbar {
   background-image: url("image/navigation_bar.png");
@@ -66,9 +72,9 @@ body {
   height: 50vw;
   margin-left: auto;
   margin-right: auto;
-  padding: 1vw;
+  padding: 1vmin;
   text-align: center;
-  width: 96vw;
+  width: 95%;
 }
 .no-webp .header {
   background-image: url("image/header.png");
@@ -110,10 +116,10 @@ body {
 .introDiv {
   cursor: default;
   margin-bottom: 4vw;
-  margin-left: 12vw;
-  margin-right: 12vw;
   text-align: center;
   width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .introText {
   color: white;
@@ -127,10 +133,10 @@ body {
   background-size: 100vw;
   border-radius: 7vw;
   cursor: default;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2vw;
-  position: absolute;
+  margin-bottom: 5vw;
   width: 85%;
 }
 .moreButton {
@@ -155,25 +161,36 @@ body {
   background-image: url("image/sum.png");
 }
 .blockDiv {
-  display: block;
+  display: flex;
   height: 24vw;
+  justify-content: space-evenly;
+}
+.blockDivHelperRight {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+}
+.blockDivHelperLeft {
+  display: flex;
+  flex-direction: column;
+  order: -1;
 }
 .myTextLeft {
   color: white;
-  display: inline-block;
   font-family: 'Quicksand', sans-serif;
   font-size: 2vw;
   margin-top: 2vw;
   text-align: right;
+  order: -1;
   width: 40vw;
 }
 .myTextRight {
   color: white;
-  display: inline-block;
   font-family: 'Quicksand', sans-serif;
   font-size: 2vw;
   margin-top: 2vw;
   text-align: left;
+  order: 1;
   width: 40vw;
 }
 .myEquipmentDiv {
@@ -185,9 +202,7 @@ body {
   image-rendering: optimizeSpeed;
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-top: 72vw;
   padding: 2vw;
-  position: absolute;
   width: 85%;
 }
 .no-webp .myEquipmentDiv {
@@ -199,28 +214,26 @@ body {
   font-size: 3vw;
   margin-bottom: 0vw;
   text-align: center;
+  order: -2;
 }
 .myImageRight {
   border-radius: 4vw;
-  float: right;
+  order: 1;
   height: 22vw;
   padding: 1vw;
   width: auto;
 } 
 .myImageLeft {
   border-radius: 4vw;
-  float: left;
+  order: -1;
   height: 22vw;
-  margin-right: 3vw;
   padding: 1vw;
   width: auto;
 } 
 .contactDiv {
   background-color: black;
   image-rendering: auto;
-  margin-top: 214vw;
   padding: 2vw;
-  position: absolute;
   text-align: center;
   transform: translate(5vw, 0%);
   width: 85%;
@@ -257,7 +270,6 @@ body {
   font-size: 1vw;
   margin-left: 2vw;
   margin-right: 2vw;
-  margin-top: 252vw;
   padding: 1vw;
 }
 #backToTopButton {
