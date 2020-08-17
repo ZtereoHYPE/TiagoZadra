@@ -46,6 +46,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 2vmin;
   padding: 1vmin;
+  margin-left: 7px;
 }
 .button:hover {
   background-color: #660000;
@@ -108,10 +109,10 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 3vw;
   font-style: italic;
-  margin-bottom: 7vw;
+  margin-bottom: 3vw;
   margin-left: 11vw;
   margin-right: 11vw;
-  margin-top: 7vw;
+  margin-top: 5vw;
   text-align: center;
 }
 .introDiv {
@@ -142,6 +143,7 @@ body {
 }
 .moreButton {
   align-content: center;
+  cursor: pointer;
   background: #0099ff;
   border-radius: 1vw;
   border: none;
@@ -235,6 +237,7 @@ body {
   image-rendering: auto;
   padding: 2vw;
   text-align: center;
+  cursor: default;
   margin-left: auto;
   margin-right: auto;
   width: 85%;
