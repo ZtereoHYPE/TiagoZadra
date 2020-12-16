@@ -5,4 +5,4 @@ I won't accept pull requests if not from me or my friend.
 
 The work should be all done here except if bugs are found or if I am requested to add any new part so there's nothing to look at.
 
-# Please flag issues in the issues tab it helps me cry at the buggyness of my website :D
+# cool.
