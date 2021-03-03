@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 body {
   background-color: black;
-  background-image: url("../lightimage/workBackground.webp");
+  background-image: url("../lightImage/workBackground.webp");
   background-size: 100vw 100vh;
   color: white;
 }
